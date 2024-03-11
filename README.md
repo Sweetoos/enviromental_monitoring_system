@@ -9,13 +9,13 @@ Develop a smart environmental monitoring system using an STM32 microcontroller t
 
 Components:
 
-STM32 microcontroller (STM32F446RE)
-Temperature sensor (e.g., DS18B20) connected via SPI
-Humidity sensor (e.g., DHT22) connected via UART
-Air quality sensor (e.g., MQ-135) connected via ADC
-OLED display connected via I2C
-UART module for communication with a PC or other devices
-PWM module for controlling external actuators (e.g., fans, heaters)
+- STM32 microcontroller (STM32F446RE)
+- Temperature sensor (e.g., DS18B20) connected via SPI
+- Humidity sensor (e.g., DHT22) connected via UART
+- Air quality sensor (e.g., MQ-135) connected via ADC
+- OLED display connected via I2C
+- UART module for communication with a PC or other devices
+- PWM module for controlling external actuators (e.g., fans, heaters)
 Functionality:
 
 - ADC: Use ADC channels of the STM32 to read analog values from the air quality sensor (MQ-135).

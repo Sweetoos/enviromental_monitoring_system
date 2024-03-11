@@ -18,11 +18,11 @@ UART module for communication with a PC or other devices
 PWM module for controlling external actuators (e.g., fans, heaters)
 Functionality:
 
-ADC: Use ADC channels of the STM32 to read analog values from the air quality sensor (MQ-135).
-Timers and Interrupts: Utilize timers and interrupts to schedule periodic sampling of sensor data, ensuring timely updates without CPU intervention.
-I2C: Communicate with the OLED display using the I2C protocol to display real-time sensor data and system status.
-SPI: Interface with the temperature sensor (DS18B20) using the SPI protocol to measure temperature.
-UART: Establish UART communication with the humidity sensor (DHT22) to retrieve humidity data.
-PWM: Control external actuators such as fans or heaters based on environmental parameters measured by the sensors.
-Display: Utilize the OLED display to present real-time data such as temperature, humidity, air quality index, and system status.
-User Interface: Implement user interaction through buttons or a keypad connected to GPIO pins for settings adjustment or mode switching.
+- ADC: Use ADC channels of the STM32 to read analog values from the air quality sensor (MQ-135).
+- Timers and Interrupts: Utilize timers and interrupts to schedule periodic sampling of sensor data, ensuring timely updates without CPU intervention.
+- I2C: Communicate with the OLED display using the I2C protocol to display real-time sensor data and system status.
+- SPI: Interface with the temperature sensor (DS18B20) using the SPI protocol to measure temperature.
+- UART: Establish UART communication with the humidity sensor (DHT22) to retrieve humidity data.
+- PWM: Control external actuators such as fans or heaters based on environmental parameters measured by the sensors.
+- Display: Utilize the OLED display to present real-time data such as temperature, humidity, air quality index, and system status.
+- User Interface: Implement user interaction through buttons or a keypad connected to GPIO pins for settings adjustment or mode switching.
